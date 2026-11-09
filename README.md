@@ -1,6 +1,6 @@
 # Projeto Dashboard de Vendas
 
-Projeto acadêmico de análise de vendas com PostgreSQL e Power BI. A entrega AC2 conecta o relatório a uma visão consolidada do banco e acrescenta uma página de análises PostgreSQL, mantendo a página original do dashboard.
+Projeto acadêmico de análise de vendas com PostgreSQL e Power BI. A entrega AC3 conecta o relatório a uma visão consolidada do banco e acrescenta uma página de análises PostgreSQL, mantendo a página original do dashboard.
 
 ## Tecnologias
 
@@ -48,7 +48,7 @@ Os valores exibidos refletem a base carregada no arquivo e precisam ser atualiza
 4. Atualize as credenciais pelo diálogo de conexão do Power BI; não as grave neste repositório.
 5. Use **Atualizar** para carregar os dados mais recentes.
 
-## Issues AC2 documentadas
+## Issues Ac3 documentadas
 
 Os critérios de análise derivados das issues 9 a 14 e suas observações de implementação estão em [`docs/criterios_implementacao.md`](docs/criterios_implementacao.md). Esse documento descreve o escopo e as limitações atuais da página.
 
