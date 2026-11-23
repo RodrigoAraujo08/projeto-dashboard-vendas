@@ -1,6 +1,6 @@
 # Projeto Dashboard de Vendas
 
-Projeto acadêmico de análise de vendas com PostgreSQL e Power BI. A entrega AC3 conecta o relatório a uma visão consolidada do banco e acrescenta uma página de análises PostgreSQL, mantendo a página original do dashboard.
+Projeto acadêmico de análise de vendas com PostgreSQL e Power BI. O relatório combina indicadores e análises comerciais com uma camada PostgreSQL de dados relacionais e views para consumo no Power BI. A página original foi preservada e complementada por uma página de análises baseada no banco.
 
 ## Tecnologias
 
@@ -14,7 +14,10 @@ Projeto acadêmico de análise de vendas com PostgreSQL e Power BI. A entrega AC
 ```text
 ├── README.md
 ├── docs/
-│   └── criterios_implementacao.md
+│   ├── criterios_implementacao.md
+│   ├── diagramas_modelagem.md
+│   ├── roteiro_apresentacao_final.md
+│   └── entrega_final.md
 ├── dashboard_vendas.pbix
 └── sql/
     ├── apoio_analise_postgresql.sql
@@ -48,10 +51,19 @@ Os valores exibidos refletem a base carregada no arquivo e precisam ser atualiza
 4. Atualize as credenciais pelo diálogo de conexão do Power BI; não as grave neste repositório.
 5. Use **Atualizar** para carregar os dados mais recentes.
 
-## Issues Ac3 documentadas
+## Issues AC2 documentadas
 
 Os critérios de análise derivados das issues 9 a 14 e suas observações de implementação estão em [`docs/criterios_implementacao.md`](docs/criterios_implementacao.md). Esse documento descreve o escopo e as limitações atuais da página.
 
-## Entrega anterior
+## Diagramas do modelo
+
+Os diagramas de classes e o MER das entidades de vendas, além da explicação das cardinalidades e da view analítica, estão em [`docs/diagramas_modelagem.md`](docs/diagramas_modelagem.md).
+
+## Apresentação e entrega final
+
+O roteiro com falas e o que mostrar em cada parte está em [`docs/roteiro_apresentacao_final.md`](docs/roteiro_apresentacao_final.md). O checklist dos arquivos e das verificações antes de publicar está em [`docs/entrega_final.md`](docs/entrega_final.md). As issues #15 (melhorias visuais), #16 (melhorias nas métricas) e #17 (indicador de quantidade de pedidos) aparecem fechadas na captura mais recente; confira e salve a versão final do PBIX antes de substituir o arquivo do repositório.
+
+## Visão geral original
 
 A página original apresenta indicadores gerais, faturamento por categoria, evolução das vendas, principais produtos e forma de pagamento. Ela foi preservada no arquivo Power BI.
+
