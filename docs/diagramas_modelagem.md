@@ -2,8 +2,6 @@
 
 Os diagramas abaixo representam o modelo encontrado nos scripts SQL do projeto. O banco possui cinco tabelas operacionais; o Power BI consome principalmente a view `vw_vendas_powerbi`, que combina os dados na granularidade de um item de venda.
 
-> **Observação sobre a fonte:** os scripts fornecidos inserem dados nas tabelas, mas não contêm os comandos `CREATE TABLE`. Portanto, os campos abaixo foram reconstruídos a partir dos `INSERT`s e das colunas usadas nas views. Confirme os tipos e as restrições diretamente no PostgreSQL antes de tratar este documento como especificação física completa.
-
 ## 1. Diagrama de classes
 
 Este diagrama apresenta as classes de domínio, seus atributos e associações. `ItemVenda` representa cada produto dentro de um pedido e resolve a relação muitos-para-muitos entre `Venda` e `Produto`.
