@@ -51,17 +51,9 @@ Os valores exibidos refletem a base carregada no arquivo e precisam ser atualiza
 4. Atualize as credenciais pelo diálogo de conexão do Power BI; não as grave neste repositório.
 5. Use **Atualizar** para carregar os dados mais recentes.
 
-## Issues AC2 documentadas
-
-Os critérios de análise derivados das issues 9 a 14 e suas observações de implementação estão em [`docs/criterios_implementacao.md`](docs/criterios_implementacao.md). Esse documento descreve o escopo e as limitações atuais da página.
-
 ## Diagramas do modelo
 
 Os diagramas de classes e o MER das entidades de vendas, além da explicação das cardinalidades e da view analítica, estão em [`docs/diagramas_modelagem.md`](docs/diagramas_modelagem.md).
-
-## Apresentação e entrega final
-
-O roteiro com falas e o que mostrar em cada parte está em [`docs/roteiro_apresentacao_final.md`](docs/roteiro_apresentacao_final.md). O checklist dos arquivos e das verificações antes de publicar está em [`docs/entrega_final.md`](docs/entrega_final.md). As issues #15 (melhorias visuais), #16 (melhorias nas métricas) e #17 (indicador de quantidade de pedidos) aparecem fechadas na captura mais recente; confira e salve a versão final do PBIX antes de substituir o arquivo do repositório.
 
 ## Visão geral original
 
